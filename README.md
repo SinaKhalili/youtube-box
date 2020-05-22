@@ -17,7 +17,7 @@
 
 1. Create a new public GitHub Gist (https://gist.github.com/), create two files named `latest_videos` and `latest_videos.md`
 1. Create an access token with the `gist` scope and copy it. (https://github.com/settings/tokens/new)
-1. Get a YouTube API key - follow these [steps](https://developers.google.com/youtube/v3/getting-started) Note you don't need an Oauth scope for this.
+1. Get a YouTube API key - follow these [steps](https://developers.google.com/youtube/v3/getting-started) note that you don't need an Oauth scope for this.
 
 ### Project setup
 
