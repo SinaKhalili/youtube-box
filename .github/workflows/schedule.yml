@@ -1,7 +1,7 @@
 name: Update gist with latest YouTube videos
 on:
   schedule:
-    - cron: "0-59 * * * *"
+    - cron: "*/1 * * * *"
   
 jobs:
   update-gist:
