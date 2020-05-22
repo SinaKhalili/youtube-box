@@ -1,8 +1,5 @@
 name: Update gist with latest YouTube videos
 on:
-  # push:
-  #   branches:
-  #     - master
   schedule:
     - cron: "0 0,10 * * *"
   
