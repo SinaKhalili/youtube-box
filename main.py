@@ -64,7 +64,12 @@ def get_recent_videos(base_url, api_key, upload_id):
         return "Error retrieving data"
 
     video_snippets = req.json()
-    video_titles = [item["snippet"]["title"] for item in video_snippets["items"]]
+    import random
+
+    i = random.randint(0, 100)
+    video_titles = [
+        f"{item['snippet']['title']}{i}" for item in video_snippets["items"]
+    ]
     video_ids = [
         item["snippet"]["resourceId"]["videoId"] for item in video_snippets["items"]
     ]
