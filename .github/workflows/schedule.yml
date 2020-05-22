@@ -25,5 +25,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: bc608a56a8f9a82dbaac4cac805fabfb
-          YOUTUBE_API_KEY: ${{ secrets.YT_API_KEY }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
         run: python main.py
