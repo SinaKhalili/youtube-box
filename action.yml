@@ -1,0 +1,8 @@
+name: "youtube-box"
+description: "Update a pinned gist to show your latest YouTube videos"
+branding:
+  icon: "clipboard"
+  color: "blue"
+runs:
+  using: "node12"
+  main: "dist/index.js"
