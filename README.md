@@ -1,5 +1,5 @@
 # youtube-box
-▶ Update a pinned gist to show your latest YouTube videos 📹
+▶ Update a pinned gist to show your latest YouTube videos - if a user clicks on the gist, another gist is below it linking to the videos [(example)](https://gist.github.com/SinaKhalili/dc3d0f7a3cd13207770a4debbb902d1d) 🤗 
 
 <p align="center">
   <img width="400" src="https://raw.githubusercontent.com/SinaKhalili/youtube-box/master/images/youtube-box.png">
